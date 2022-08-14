@@ -3,9 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run storybook",
     "build": "tsc && vite build",
-    "preview": "vite preview",
     "clean": "rm -rf ./dist/*",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
