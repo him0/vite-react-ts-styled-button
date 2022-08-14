@@ -4,4 +4,6 @@ const Button = styled.button`
   color: red;
 `;
 
-export const ColoredButton = () => <Button>すごい</Button>;
+export const ColoredButton = ({ label }: { label?: string }) => (
+  <Button>{label || "すごい"}</Button>
+);
